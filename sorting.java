@@ -26,6 +26,7 @@ class Class1
     // Driver method to test above
     public static void main(String args[])
     {
+        int z=0;
         Class1 ob = new Class1();
         int arr[] = {64, 34, 25, 12, 11, 90};
         ob.bubbleSort(arr);
