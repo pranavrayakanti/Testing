@@ -27,7 +27,7 @@ class Class1
     public static void main(String args[])
     {
         Class1 ob = new Class1();
-        int arr[] = {64, 34, 25, 12, 22, 11, 90};
+        int arr[] = {64, 34, 25, 12, 11, 90};
         ob.bubbleSort(arr);
         System.out.println("Sorted array");
         ob.printArray(arr);
